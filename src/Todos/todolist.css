@@ -1,0 +1,67 @@
+.todo-container {
+    margin: 20px auto;
+    min-width: 400px;
+    max-width: 30%;
+    padding: 30px;
+    text-align: start;
+    border: 1px solid grey;
+}
+
+.mini-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.add-input {
+    width: 70%;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.add-button {
+    background-color: #00a3e6;
+    padding: 5px 23px;
+    border-radius: 7px;
+}
+
+.add-button:hover {
+    cursor: pointer;
+    background-color: lightskyblue;
+}
+
+.list-title {
+    margin-bottom: 30px;
+}
+
+.todo-item {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.check-done:checked + .label-check-done {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.label-check-done:hover {
+    cursor: pointer;
+}
+
+.archive-button {
+    margin-left: auto;
+    border: none;
+    background-color: white;
+}
+
+.archive-button:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+.show-archive-button {
+    margin-top: 30px;
+    background-color: #00a3e6;
+    padding: 5px 23px;
+    border-radius: 7px;
+}
